@@ -27,7 +27,6 @@ class MetaWeatherAPI {
     }
     let fetchRequest = URLRequest(url: url)
     NetworkService.startRequest(request: fetchRequest, success: { (_, data) in
-      do {
         if let loca = Location(JSONString: data.jsonString) {
           if let weather = loca.tomorrowWeather() {
             addStateToCache(for: weather, completion: {
@@ -36,18 +35,6 @@ class MetaWeatherAPI {
           }
           return
         }
-        
-        let json = try JSONSerialization.jsonObject(with: data) as? [String: Any]
-        if let dict = json {
-          guard let loc = Location(from: dict) else {
-            completion(nil,nil)
-            return
-          }
-
-        }
-      } catch {
-        print("Couldnt create search results! \(error.localizedDescription)")
-      }
     }) { (_) in
     }
   }

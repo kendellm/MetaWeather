@@ -47,6 +47,7 @@ class MetaWeatherAPI {
         }
       } catch {
         print("Couldnt create search results! \(error.localizedDescription)")
+        completion(nil,nil)
       }
     }) { (_) in
     }

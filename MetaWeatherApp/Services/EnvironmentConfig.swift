@@ -15,7 +15,7 @@ enum EnvironmentType :String {
   
   case PRODUCTION
   case PREVIEW
-  case QA
+  case QA1
 
   //QA4 is created for testing the okta by connecting to Datapower > David's VM
   case QA5
@@ -26,10 +26,10 @@ enum EnvironmentType :String {
       return BUILD_RELEASE_CONFIG
     case .PREVIEW:
       return BUILD_PREVIEW_CONFIG
-    case .QA:
-      return BUILD_QA_CONFIG
+    case .QA1:
+      return BUILD_QA1_CONFIG
     default:
-      return BUILD_QA_CONFIG
+      return BUILD_QA1_CONFIG
     }
   }
 }
@@ -82,9 +82,9 @@ private let BUILD_PREVIEW_CONFIG = EnvironmentConfig (
   
 )
 
-private let BUILD_QA_CONFIG = EnvironmentConfig (
-  environment : .QA,
-  name : "QA",
+private let BUILD_QA1_CONFIG = EnvironmentConfig (
+  environment : .QA1,
+  name : "QA1",
   isDeveloperSettingsOn : true
 )
 

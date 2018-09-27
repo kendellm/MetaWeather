@@ -16,7 +16,7 @@ class RootViewController: UIViewController {
         super.viewDidLoad()
       let locationVC = LocationViewController()
       locationVC.view.frame = view.bounds
-      locationVC.title = "Tomorrow's forecast"
+      locationVC.title = EnvironmentConfig.getCurrentEnvironment().configuration.name
       navController = UINavigationController(rootViewController: locationVC)
       navController.navigationBar.isTranslucent = false
       view.addSubview(navController.view)

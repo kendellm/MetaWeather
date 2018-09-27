@@ -54,7 +54,7 @@ class LocationViewController: UIViewController {
       tableView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: 10),
       tableView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 5),
       tableView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -5),
-      ])
+    ])
   }
 }
 

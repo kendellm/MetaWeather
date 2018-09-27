@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MetaWeatherApp.xcscheme</key>
+		<key>MetaWeatherApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>QA1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0EEE7E7721437A480024BCB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0EEE7E8E21437A4A0024BCB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0EEE7E9921437A4A0024BCB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

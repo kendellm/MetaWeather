@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E7D9314215D708300F16F41 /* EnvironmentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D9313215D708300F16F41 /* EnvironmentConfig.swift */; };
 		0E7FCB46214488C700718B22 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FCB45214488C700718B22 /* RootViewController.swift */; };
 		0E7FCB4B214496B200718B22 /* GlobalCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FCB4A214496B200718B22 /* GlobalCache.swift */; };
 		0E7FCB4D2144A48000718B22 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7FCB4C2144A48000718B22 /* WeatherView.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E7D9313215D708300F16F41 /* EnvironmentConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentConfig.swift; sourceTree = "<group>"; };
 		0E7FCB45214488C700718B22 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		0E7FCB4A214496B200718B22 /* GlobalCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCache.swift; sourceTree = "<group>"; };
 		0E7FCB4C2144A48000718B22 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
@@ -68,15 +70,24 @@
 		0EEE7EBF214397500024BCB5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		0EEE7EC1214398450024BCB5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		0EEE7EC3214398D80024BCB5 /* MetaWeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaWeatherAPI.swift; sourceTree = "<group>"; };
+		14B5803CE4EA9BD85BA96ECF /* Pods-MetaWeatherAppTests.qa1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppTests.qa1.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppTests/Pods-MetaWeatherAppTests.qa1.xcconfig"; sourceTree = "<group>"; };
+		255D7421EE6871076664BF17 /* Pods-MetaWeatherApp.qa1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherApp.qa1.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherApp/Pods-MetaWeatherApp.qa1.xcconfig"; sourceTree = "<group>"; };
+		2EB9D7865F8FD25197FEDC13 /* Pods-MetaWeatherAppUITests.qa1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppUITests.qa1.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppUITests/Pods-MetaWeatherAppUITests.qa1.xcconfig"; sourceTree = "<group>"; };
+		54E9B6D2CFF539C33A76D403 /* Pods-MetaWeatherApp.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherApp.preview.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherApp/Pods-MetaWeatherApp.preview.xcconfig"; sourceTree = "<group>"; };
+		57D14344689AC3B1F09CEB63 /* Pods-MetaWeatherApp.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherApp.production.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherApp/Pods-MetaWeatherApp.production.xcconfig"; sourceTree = "<group>"; };
 		8AC2DE1A4E98F7E1C7155EA2 /* Pods-MetaWeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppUITests/Pods-MetaWeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AF8351C37F051E1DC1CD6CB /* Pods_MetaWeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaWeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0871137A87ECA371036AEB /* Pods-MetaWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherApp/Pods-MetaWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		93ED138DA6911898ADF4F86B /* Pods_MetaWeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaWeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D5E1A17B9EE2F9D6B0C274 /* Pods_MetaWeatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaWeatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BD76CAFB5CE6699EF0CD58 /* Pods-MetaWeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppTests/Pods-MetaWeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C704DB56440840572F5336C7 /* Pods-MetaWeatherAppUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppUITests.production.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppUITests/Pods-MetaWeatherAppUITests.production.xcconfig"; sourceTree = "<group>"; };
 		CE4031ADF5D0727D84D90407 /* Pods-MetaWeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherApp/Pods-MetaWeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D2AB64615630035BB693127F /* Pods-MetaWeatherAppUITests.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppUITests.preview.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppUITests/Pods-MetaWeatherAppUITests.preview.xcconfig"; sourceTree = "<group>"; };
 		D41035623BDCC021FF142AA5 /* Pods-MetaWeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppUITests/Pods-MetaWeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E01BC55AE762893A461D9766 /* Pods-MetaWeatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppTests/Pods-MetaWeatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D31A47A61FFD2E0AE779A9 /* Pods-MetaWeatherAppTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppTests.production.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppTests/Pods-MetaWeatherAppTests.production.xcconfig"; sourceTree = "<group>"; };
+		FDA415EA0699155C6EEAC4DB /* Pods-MetaWeatherAppTests.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaWeatherAppTests.preview.xcconfig"; path = "Pods/Target Support Files/Pods-MetaWeatherAppTests/Pods-MetaWeatherAppTests.preview.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E7FCB472144896800718B22 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		0EEE7E6F21437A480024BCB5 = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +146,6 @@
 				0EEE7EB12143925A0024BCB5 /* Views */,
 				0EEE7EB0214392520024BCB5 /* Models */,
 				0EEE7EB22143926A0024BCB5 /* Services */,
-				0E7FCB472144896800718B22 /* Utils */,
 				0EEE7E7B21437A480024BCB5 /* AppDelegate.swift */,
 				0EEE7E8521437A4A0024BCB5 /* Assets.xcassets */,
 				0EEE7E8721437A4A0024BCB5 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 				0EEE7EC1214398450024BCB5 /* NetworkService.swift */,
 				0EEE7EC3214398D80024BCB5 /* MetaWeatherAPI.swift */,
 				0E7FCB4A214496B200718B22 /* GlobalCache.swift */,
+				0E7D9313215D708300F16F41 /* EnvironmentConfig.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -220,6 +224,15 @@
 				C2BD76CAFB5CE6699EF0CD58 /* Pods-MetaWeatherAppTests.release.xcconfig */,
 				8AC2DE1A4E98F7E1C7155EA2 /* Pods-MetaWeatherAppUITests.debug.xcconfig */,
 				D41035623BDCC021FF142AA5 /* Pods-MetaWeatherAppUITests.release.xcconfig */,
+				57D14344689AC3B1F09CEB63 /* Pods-MetaWeatherApp.production.xcconfig */,
+				255D7421EE6871076664BF17 /* Pods-MetaWeatherApp.qa1.xcconfig */,
+				54E9B6D2CFF539C33A76D403 /* Pods-MetaWeatherApp.preview.xcconfig */,
+				F6D31A47A61FFD2E0AE779A9 /* Pods-MetaWeatherAppTests.production.xcconfig */,
+				14B5803CE4EA9BD85BA96ECF /* Pods-MetaWeatherAppTests.qa1.xcconfig */,
+				FDA415EA0699155C6EEAC4DB /* Pods-MetaWeatherAppTests.preview.xcconfig */,
+				C704DB56440840572F5336C7 /* Pods-MetaWeatherAppUITests.production.xcconfig */,
+				2EB9D7865F8FD25197FEDC13 /* Pods-MetaWeatherAppUITests.qa1.xcconfig */,
+				D2AB64615630035BB693127F /* Pods-MetaWeatherAppUITests.preview.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -443,6 +456,7 @@
 				0EEE7EC0214397500024BCB5 /* Weather.swift in Sources */,
 				0EEE7EC4214398D80024BCB5 /* MetaWeatherAPI.swift in Sources */,
 				0EEE7EB8214396510024BCB5 /* LocationPresenter.swift in Sources */,
+				0E7D9314215D708300F16F41 /* EnvironmentConfig.swift in Sources */,
 				0EEE7E8421437A480024BCB5 /* MetaWeatherApp.xcdatamodeld in Sources */,
 				0EEE7E7C21437A480024BCB5 /* AppDelegate.swift in Sources */,
 			);
@@ -491,7 +505,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0EEE7EA121437A4A0024BCB5 /* Debug */ = {
+		0E7D930D215D51A100F16F41 /* QA1 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -549,7 +563,245 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = QA1;
+		};
+		0E7D930E215D51A100F16F41 /* QA1 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255D7421EE6871076664BF17 /* Pods-MetaWeatherApp.qa1.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72S89JLNGY;
+				INFOPLIST_FILE = MetaWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmonrose.proj.MetaWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QA1;
+		};
+		0E7D930F215D51A100F16F41 /* QA1 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B5803CE4EA9BD85BA96ECF /* Pods-MetaWeatherAppTests.qa1.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72S89JLNGY;
+				INFOPLIST_FILE = MetaWeatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmonrose.proj.MetaWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaWeatherApp.app/MetaWeatherApp";
+			};
+			name = QA1;
+		};
+		0E7D9310215D51A100F16F41 /* QA1 */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB9D7865F8FD25197FEDC13 /* Pods-MetaWeatherAppUITests.qa1.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72S89JLNGY;
+				INFOPLIST_FILE = MetaWeatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmonrose.proj.MetaWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetaWeatherApp;
+			};
+			name = QA1;
+		};
+		0E7D9315215D742A00F16F41 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Preview;
+		};
+		0E7D9316215D742A00F16F41 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E9B6D2CFF539C33A76D403 /* Pods-MetaWeatherApp.preview.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72S89JLNGY;
+				INFOPLIST_FILE = MetaWeatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmonrose.proj.MetaWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Preview;
+		};
+		0E7D9317215D742A00F16F41 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA415EA0699155C6EEAC4DB /* Pods-MetaWeatherAppTests.preview.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72S89JLNGY;
+				INFOPLIST_FILE = MetaWeatherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmonrose.proj.MetaWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaWeatherApp.app/MetaWeatherApp";
+			};
+			name = Preview;
+		};
+		0E7D9318215D742A00F16F41 /* Preview */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2AB64615630035BB693127F /* Pods-MetaWeatherAppUITests.preview.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72S89JLNGY;
+				INFOPLIST_FILE = MetaWeatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kmonrose.proj.MetaWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetaWeatherApp;
+			};
+			name = Preview;
+		};
+		0EEE7EA121437A4A0024BCB5 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Production;
 		};
 		0EEE7EA221437A4A0024BCB5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -605,9 +857,9 @@
 			};
 			name = Release;
 		};
-		0EEE7EA421437A4A0024BCB5 /* Debug */ = {
+		0EEE7EA421437A4A0024BCB5 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE4031ADF5D0727D84D90407 /* Pods-MetaWeatherApp.debug.xcconfig */;
+			baseConfigurationReference = 57D14344689AC3B1F09CEB63 /* Pods-MetaWeatherApp.production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -622,7 +874,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Production;
 		};
 		0EEE7EA521437A4A0024BCB5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -643,9 +895,9 @@
 			};
 			name = Release;
 		};
-		0EEE7EA721437A4A0024BCB5 /* Debug */ = {
+		0EEE7EA721437A4A0024BCB5 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E01BC55AE762893A461D9766 /* Pods-MetaWeatherAppTests.debug.xcconfig */;
+			baseConfigurationReference = F6D31A47A61FFD2E0AE779A9 /* Pods-MetaWeatherAppTests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,7 +915,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetaWeatherApp.app/MetaWeatherApp";
 			};
-			name = Debug;
+			name = Production;
 		};
 		0EEE7EA821437A4A0024BCB5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -687,9 +939,9 @@
 			};
 			name = Release;
 		};
-		0EEE7EAA21437A4A0024BCB5 /* Debug */ = {
+		0EEE7EAA21437A4A0024BCB5 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AC2DE1A4E98F7E1C7155EA2 /* Pods-MetaWeatherAppUITests.debug.xcconfig */;
+			baseConfigurationReference = C704DB56440840572F5336C7 /* Pods-MetaWeatherAppUITests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,7 +958,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MetaWeatherApp;
 			};
-			name = Debug;
+			name = Production;
 		};
 		0EEE7EAB21437A4A0024BCB5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -735,8 +987,10 @@
 		0EEE7E7321437A480024BCB5 /* Build configuration list for PBXProject "MetaWeatherApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EEE7EA121437A4A0024BCB5 /* Debug */,
+				0EEE7EA121437A4A0024BCB5 /* Production */,
+				0E7D930D215D51A100F16F41 /* QA1 */,
 				0EEE7EA221437A4A0024BCB5 /* Release */,
+				0E7D9315215D742A00F16F41 /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -744,8 +998,10 @@
 		0EEE7EA321437A4A0024BCB5 /* Build configuration list for PBXNativeTarget "MetaWeatherApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EEE7EA421437A4A0024BCB5 /* Debug */,
+				0EEE7EA421437A4A0024BCB5 /* Production */,
+				0E7D930E215D51A100F16F41 /* QA1 */,
 				0EEE7EA521437A4A0024BCB5 /* Release */,
+				0E7D9316215D742A00F16F41 /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -753,8 +1009,10 @@
 		0EEE7EA621437A4A0024BCB5 /* Build configuration list for PBXNativeTarget "MetaWeatherAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EEE7EA721437A4A0024BCB5 /* Debug */,
+				0EEE7EA721437A4A0024BCB5 /* Production */,
+				0E7D930F215D51A100F16F41 /* QA1 */,
 				0EEE7EA821437A4A0024BCB5 /* Release */,
+				0E7D9317215D742A00F16F41 /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -762,8 +1020,10 @@
 		0EEE7EA921437A4A0024BCB5 /* Build configuration list for PBXNativeTarget "MetaWeatherAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EEE7EAA21437A4A0024BCB5 /* Debug */,
+				0EEE7EAA21437A4A0024BCB5 /* Production */,
+				0E7D9310215D51A100F16F41 /* QA1 */,
 				0EEE7EAB21437A4A0024BCB5 /* Release */,
+				0E7D9318215D742A00F16F41 /* Preview */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
